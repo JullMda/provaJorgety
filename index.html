@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação de Idades</title>
+    <meta name="author" content="João Pedro">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Classificação de Idades</h1>
+    <form id="formIdade">
+        <label for="idade1">Idade 1:</label>
+        <input type="number" id="idade1" name="idade1" required><br>
+        <label for="idade2">Idade 2:</label>
+        <input type="number" id="idade2" name="idade2" required><br>
+        <label for="idade3">Idade 3:</label>
+        <input type="number" id="idade3" name="idade3" required><br>
+        <label for="idade4">Idade 4:</label>
+        <input type="number" id="idade4" name="idade4" required><br>
+        <label for="idade5">Idade 5:</label>
+        <input type="number" id="idade5" name="idade5" required><br>
+        <button type="button" onclick="classificarIdades()">Classificar Idades</button>
+    </form>
+
+    <h2>Resultado da Classificação:</h2>
+    <p id="resultado"></p>
+    <p id="maiorIdade"></p>
+</body>
+</html>
